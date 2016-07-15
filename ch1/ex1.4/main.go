@@ -3,7 +3,9 @@ Exercise 1.4:
 Modify dup2 to print the names of all files in which each duplicated line occurs.
 
 Example usage:
-$ ex1.4 dup_text/*
+$ cd ch1/ex1.4
+$ go build
+$ ./ex1.4 dup_text/*
 3       you     dup_text/dup2.txt
 5       dup     dup_text/dup1.txt, dup_text/dup2.txt
 6       love    dup_text/dup2.txt, dup_text/dup3.txt
