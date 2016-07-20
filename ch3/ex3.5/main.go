@@ -43,8 +43,6 @@ func mandelbrot(z complex128) color.Color {
 	return color.YCbCr{0, 192, 192}
 }
 
-//!-
-
 // Some other interesting functions:
 
 func acos(z complex128) color.Color {
